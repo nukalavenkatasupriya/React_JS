@@ -1,0 +1,112 @@
+.card1,.card2,.card3{
+	border: 2px solid #43403F;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	text-align: center;
+	/*border-radius: 90%;*/
+	border-radius: 10%;
+	/*border-radius: 50%;*/
+	width: 25%;
+	background-color: skyblue;
+}
+button{
+	width: 40%;
+	background-color: orange;
+	height: 8%;
+}
+img{
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 50%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px #E567F1; /*right,bottom,width,color*/
+}
+.card-view{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	border: 2px solid #43403F;
+	margin: 1%;
+	padding: 1%;
+}
+@media only screen and (min-width: 0px) and (max-width: 480px){
+	.card1,.card2,.card3{
+	border: 2px solid #43403F;
+	padding: 2%;
+	margin: 2%;
+	/*font-size: 25px;*/
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10%;
+	/*width: 25%;*/
+	width: 92%;
+	background-color: #69D04E;
+}
+h3,p,button{
+	word-wrap: break-word;
+}
+button{
+	width: 40%;
+	background-color: orange;
+	height: 8%;
+}
+img{
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 50%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px #E567F1; 
+}
+.card-view{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around; 
+	border: 2px solid #43403F;
+	margin: 1%;
+	padding: 1%;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	.card1,.card2,.card3{
+	border: 2px solid #43403F;
+	padding: 2%;
+	margin: 2%;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10%;
+	width: 40%;
+	background-color: #DCF31D;
+}
+h3,p,button{
+	word-wrap: break-word;
+}
+button{
+	width: 40%;
+	background-color: orange;
+	height: 8%;
+}
+img{
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 50%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px #E567F1; 
+}
+.card-view{
+	display: flex;
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	justify-content: space-around; 
+	border: 2px solid #43403F;
+	margin: 1%;
+	padding: 1%;
+}
+}
+}
