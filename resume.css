@@ -1,0 +1,154 @@
+
+.card-view{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	border: 2px solid #43403F;
+	margin: 1%;
+}
+
+.card1{
+	border: 2px solid #43403F;
+	text-align: center;
+	border-radius: 10%;
+	width: 30%;
+	background-color: #1DF3E6;
+}
+.card2{
+	border: 2px solid #43403F;
+	padding-left: 10px;
+	font-size: 1em;
+	text-align: left;
+	border-radius: 2%;
+	width: 68%;
+	background-color: #1DF3E6;
+}
+img{
+	width: 30%;
+	height: 10%;
+	border: 2px solid black;
+	border-radius: 50%; 
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px #E567F1; 
+}
+
+
+/*Don't use padding much more in the code expect media quries*/
+td{
+	word-wrap: break-word;
+
+}
+@media (min-width: 320px) and (max-width: 480px){
+	/*Dont write this much of code here*/
+ 	.card1{
+ 		width: 98%;
+ 	}
+ 	.card2{
+ 		width: 98%;
+ 	}
+ 	img{
+ 		width: 50%;
+ 		height: 40%;
+ 	}
+
+   table{
+   	width: 100%;
+   	overflow-x: auto;
+   }
+/*.card1{
+	border: 2px solid #43403F;
+	 
+	margin: 1%;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 10%;
+	width: 92%;
+	background-color: #E76AF0;
+	word-wrap: break-word;
+
+}
+.card2{
+	border: 2px solid #43403F;
+	 
+	margin: 1%;
+	font-size: 15px;
+	text-align: left;
+	border-radius: 2%;
+	width: 98%;
+	background-color: #E76AF0;
+	word-wrap: break-word;
+}
+img{
+	border: 2px solid black;
+	border-radius: 50%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px #EAF06A; 
+}
+.card-view{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around; 
+	border: 2px solid #43403F;
+	margin: 1%;
+	 
+}
+td{
+	word-wrap: break-word;
+
+}*/
+
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+.card1{
+	border: 2px solid #43403F;
+	 
+	margin: 1%;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 10%;
+	width: 90%;
+	background-color: #EAF06A ;
+	word-wrap: break-word;
+
+}
+.card2{
+	border: 2px solid #43403F;
+	 
+	margin: 1%;
+	font-size: 25px;
+	text-align: left;
+	border-radius: 2%;
+	width: 100%;
+	background-color: #EAF06A ;
+	word-wrap: break-word;
+}
+img{
+	height: 40%;
+	border: 2px solid black;
+	border-radius: 50%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 6px 8px #EAF06A; 
+}
+.card-view{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+	border: 2px solid #43403F;
+	margin: 1%;
+	 
+}
+td{
+	word-wrap: break-word;
+
+}
+
+}
+
+
